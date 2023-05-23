@@ -1,61 +1,55 @@
-# template-for-proposals
+# Proposing the Renaming of JavaScript to "Hyper"
 
-A repository template for ECMAScript proposals.
+**Stage 0**
+## Status
+Champion(s): Searching
+Author(s): Vasile Pește
+Stage: 0
 
-## Before creating a proposal
+## Introduction
+The purpose of this proposal is to advocate for a name change of the JavaScript programming language to "Hyper".
+This change aims to reflect the evolution of JavaScript beyond its traditional web-centric applications
+as a powerful language for server-side development, cross-platform applications, robotics, Internet of Things (IoT),
+and various other domains, furthermore we want to address its infamous identity as "the language for building web pages"
+and the misleading reputation associated with its name, which inaccurately implies a connection to Java<br>
+The proposed new name, "Hyper", embodies the dynamic and versatile nature of the language while offering a
+fresh identity that better aligns with its current and future applications.
 
-Please ensure the following:
-  1. You have read the [process document](https://tc39.github.io/process-document/)
-  1. You have reviewed the [existing proposals](https://github.com/tc39/proposals/)
-  1. You are aware that your proposal requires being a member of TC39, or locating a TC39 delegate to "champion" your proposal
+## 1. Evolution of JavaScript Beyond the Web
+JavaScript has evolved significantly since its inception and is now extensively utilized beyond the web environment.
+It has emerged as a powerful language for server-side development, cross-platform applications, robotics, Internet of Things (IoT),
+and various other domains. However, the current name, "JavaScript," inherently associates the language with web development,
+potentially overshadowing its broader potential and hindering its acceptance in non-web contexts.
+JavaScript has historically been associated primarily with web development due to its early adoption in web browsers.
+However, this perception has become outdated and misleading, as JavaScript has now found extensive applications beyond the web domain.
+Many people still mistakenly believe that JavaScript is exclusively a web language,
+Renaming it to "Hyper" would signify this expansion, offering a more inclusive and versatile representation of the language's capabilities.
 
-## Create your proposal repo
+## 2. Addressing the Infamous Reputation of the Name
+The name "JavaScript" has historically been a source of confusion due to its misleading association with the Java programming language.
+While JavaScript and Java share some syntactical similarities, they are fundamentally different languages with distinct purposes and ecosystems.
+This confusion has led to negative perceptions of JavaScript, with critics claiming that the name misrepresents the language's nature and undermines its credibility.
+By renaming it to "Hyper" we can distance the language from this reputation and establish a distinct identity that accurately portrays its characteristics, strengths, and independent development.
 
-Follow these steps:
-  1. Click the green ["use this template"](https://github.com/tc39/template-for-proposals/generate) button in the repo header. (Note: Do not fork this repo in GitHub's web interface, as that will later prevent transfer into the TC39 organization)
-  1. Update the biblio to the latest version: `npm install --save-dev --save-exact @tc39/ecma262-biblio@latest`.
-  1. Go to your repo settings “Options” page, under “GitHub Pages”, and set the source to the **main branch** under the root (and click Save, if it does not autosave this setting)
-      1. check "Enforce HTTPS"
-      1. On "Options", under "Features", Ensure "Issues" is checked, and disable "Wiki", and "Projects" (unless you intend to use Projects)
-      1. Under "Merge button", check "automatically delete head branches"
-<!--
-  1. Avoid merge conflicts with build process output files by running:
-      ```sh
-      git config --local --add merge.output.driver true
-      git config --local --add merge.output.driver true
-      ```
-  1. Add a post-rewrite git hook to auto-rebuild the output on every commit:
-      ```sh
-      cp hooks/post-rewrite .git/hooks/post-rewrite
-      chmod +x .git/hooks/post-rewrite
-      ```
--->
-  3. ["How to write a good explainer"][explainer] explains how to make a good first impression.
+### 3. Benefits of the Proposed Name Change
+- Enhanced Clarity and Differentiation: The name "Hyper" offers a clear distinction from Java and eliminatesthe potential for confusion. Developers, educators, and learners will have a more accurate understanding of the language's core features, facilitating its adoption and education across various platforms and contexts.
+- Rebranding Opportunity: Renaming JavaScript to "Hyper" presents an exciting opportunity for rebranding and revitalizing the language. It enables a fresh start, shedding any residual negative perceptions associated with the existing name, and positioning the language as a modern and progressive technology.
+- Reflecting Versatility: The new name, "Hyper" embodies the dynamic, fast-paced, and adaptable nature of the language, highlighting its suitability for a wide range of applications and environments. It reflects the language's ability to power hyper-connected, interactive, and intelligent systems.
+- Embracing Industry Trends: Renaming JavaScript to "Hyper" aligns with the industry trend of naming programming languages with modern and futuristic connotations. This will help the language stay relevant and appealing to developers, ensuring its continued growth and evolution.
+- International Appeal and Cultural Neutrality: "JavaScript" carries with it a certain cultural and linguistic association with the English language and the Western world. By adopting the name "Hyper," the language can present a more neutral and globally inclusive identity. This can facilitate its acceptance and adoption in diverse linguistic and cultural contexts, promoting a sense of inclusivity and expanding its user base worldwide.
 
-      > Each TC39 proposal should have a `README.md` file which explains the purpose
-      > of the proposal and its shape at a high level.
-      >
-      > ...
-      >
-      > The rest of this page can be used as a template ...
+## Implementation Considerations & Transition
+- Community Engagement: To ensure a smooth transition, it is crucial to engage the JavaScript community in discussions about the proposed name change. Soliciting feedback, addressing concerns, and involving key stakeholders will foster a sense of ownership and promote consensus.
+- Clear Transition Strategy: A well-defined transition plan should be developed, outlining the steps involved in adopting the new name across documentation, libraries, tools, and frameworks. The plan should also include guidelines for supporting legacy code and maintaining backward compatibility.
+- Communication and Education: An effective communication strategy should be devised to inform developers, organizations, and the broader tech community about the rationale behind the name change. Educational resources and materials should be provided to facilitate a smooth adaptation to the new name.
 
-      Your explainer can point readers to the `index.html` generated from `spec.emu`
-      via markdown like
+### ".hy" File Extension
+To ensure a seamless transition and support existing codebases, it is essential to prioritize full retrocompatibility with the current JavaScript language specification. The renaming process should not introduce breaking changes or disrupt existing projects, frameworks, or libraries.
+One way to facilitate the coexistence of legacy code and the adoption of the new name is by introducing support for the ".hy" file extension. This extension would indicate that the code is written in the renamed language, allowing developers to gradually migrate their codebases while maintaining backward compatibility.
+Supporting the ".hy" file extension provides a clear distinction between the renamed language and the traditional JavaScript files, easing the identification of code written in the new language. This approach allows for a smooth transition, enabling developers to update and refactor their projects incrementally, while still being able to leverage existing JavaScript libraries and tools.
+By ensuring full retrocompatibility and introducing the ".hy" file extension support, the proposed renaming to "Hyper" can coexist harmoniously with the existing JavaScript ecosystem. Developers can gradually adopt the new name and language features without causing disruptions, providing a stable and reliable environment for both existing and new projects.
 
-      ```markdown
-      You can browse the [ecmarkup output](https://ACCOUNT.github.io/PROJECT/)
-      or browse the [source](https://github.com/ACCOUNT/PROJECT/blob/HEAD/spec.emu).
-      ```
+-- 
 
-      where *ACCOUNT* and *PROJECT* are the first two path elements in your project's Github URL.
-      For example, for github.com/**tc39**/**template-for-proposals**, *ACCOUNT* is "tc39"
-      and *PROJECT* is "template-for-proposals".
+Renaming JavaScript to "Hyper" is a strategic step that recognizes its evolution.
 
-
-## Maintain your proposal repo
-
-  1. Make your changes to `spec.emu` (ecmarkup uses HTML syntax, but is not HTML, so I strongly suggest not naming it ".html")
-  1. Any commit that makes meaningful changes to the spec, should run `npm run build` and commit the resulting output.
-  1. Whenever you update `ecmarkup`, run `npm run build` and commit any changes that come from that dependency.
-
-  [explainer]: https://github.com/tc39/how-we-work/blob/HEAD/explainer.md
