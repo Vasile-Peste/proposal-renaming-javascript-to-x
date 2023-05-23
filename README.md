@@ -18,11 +18,11 @@ fresh identity that better aligns with its current and future applications.
 ## 1. Evolution of JavaScript Beyond the Web
 JavaScript has evolved significantly since its inception and is now extensively utilized beyond the web environment.
 It has emerged as a powerful language for server-side development, cross-platform applications, robotics, Internet of Things (IoT),
-and various other domains. However, the current name, "JavaScript," inherently associates the language with web development,
+and various other domains. However, the current name, "JavaScript" inherently associates the language with web development,
 potentially overshadowing its broader potential and hindering its acceptance in non-web contexts.
 JavaScript has historically been associated primarily with web development due to its early adoption in web browsers.
 However, this perception has become outdated and misleading, as JavaScript has now found extensive applications beyond the web domain.
-Many people still mistakenly believe that JavaScript is exclusively a web language,
+Many people still mistakenly believe that JavaScript is exclusively a web language.<br>
 Renaming it to "Hyper" would signify this expansion, offering a more inclusive and versatile representation of the language's capabilities.
 
 ## 2. Addressing the Infamous Reputation of the Name
@@ -36,7 +36,7 @@ By renaming it to "Hyper" we can distance the language from this reputation and 
 - Rebranding Opportunity: Renaming JavaScript to "Hyper" presents an exciting opportunity for rebranding and revitalizing the language. It enables a fresh start, shedding any residual negative perceptions associated with the existing name, and positioning the language as a modern and progressive technology.
 - Reflecting Versatility: The new name, "Hyper" embodies the dynamic, fast-paced, and adaptable nature of the language, highlighting its suitability for a wide range of applications and environments. It reflects the language's ability to power hyper-connected, interactive, and intelligent systems.
 - Embracing Industry Trends: Renaming JavaScript to "Hyper" aligns with the industry trend of naming programming languages with modern and futuristic connotations. This will help the language stay relevant and appealing to developers, ensuring its continued growth and evolution.
-- International Appeal and Cultural Neutrality: "JavaScript" carries with it a certain cultural and linguistic association with the English language and the Western world. By adopting the name "Hyper," the language can present a more neutral and globally inclusive identity. This can facilitate its acceptance and adoption in diverse linguistic and cultural contexts, promoting a sense of inclusivity and expanding its user base worldwide.
+- International Appeal and Cultural Neutrality: "JavaScript" carries with it a certain cultural and linguistic association with the English language and the Western world. By adopting the name "Hyper" the language can present a more neutral and globally inclusive identity. This can facilitate its acceptance and adoption in diverse linguistic and cultural contexts, promoting a sense of inclusivity and expanding its user base worldwide.
 
 ## Implementation Considerations & Transition
 - Community Engagement: To ensure a smooth transition, it is crucial to engage the JavaScript community in discussions about the proposed name change. Soliciting feedback, addressing concerns, and involving key stakeholders will foster a sense of ownership and promote consensus.
