@@ -2,7 +2,7 @@
 
 ## Status
 Champion(s): Searching<br>
-Author(s): Vasile Pește<br>
+Author(s): [Vasile Pește](https://github.com/Vasile-Peste)<br>
 
 **Stage: 0**
 
