@@ -1,10 +1,10 @@
 # Proposing the Renaming of JavaScript to "Hyper"
 
-**Stage 0**
 ## Status
-Champion(s): Searching
-Author(s): Vasile Pește
-Stage: 0
+Champion(s): Searching<br>
+Author(s): Vasile Pește<br>
+
+**Stage: 0**
 
 ## Introduction
 The purpose of this proposal is to advocate for a name change of the JavaScript programming language to "Hyper".
