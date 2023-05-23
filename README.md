@@ -32,7 +32,7 @@ This confusion has led to negative perceptions of JavaScript, with critics claim
 By renaming it to "Hyper" we can distance the language from this reputation and establish a distinct identity that accurately portrays its characteristics, strengths, and independent development.
 
 ### 3. Benefits of the Proposed Name Change
-- Enhanced Clarity and Differentiation: The name "Hyper" offers a clear distinction from Java and eliminatesthe potential for confusion. Developers, educators, and learners will have a more accurate understanding of the language's core features, facilitating its adoption and education across various platforms and contexts.
+- Enhanced Clarity and Differentiation: The name "Hyper" offers a clear distinction from Java and eliminates the potential for confusion. Developers, educators, and learners will have a more accurate understanding of the language's core features, facilitating its adoption and education across various platforms and contexts.
 - Rebranding Opportunity: Renaming JavaScript to "Hyper" presents an exciting opportunity for rebranding and revitalizing the language. It enables a fresh start, shedding any residual negative perceptions associated with the existing name, and positioning the language as a modern and progressive technology.
 - Reflecting Versatility: The new name, "Hyper" embodies the dynamic, fast-paced, and adaptable nature of the language, highlighting its suitability for a wide range of applications and environments. It reflects the language's ability to power hyper-connected, interactive, and intelligent systems.
 - Embracing Industry Trends: Renaming JavaScript to "Hyper" aligns with the industry trend of naming programming languages with modern and futuristic connotations. This will help the language stay relevant and appealing to developers, ensuring its continued growth and evolution.
@@ -49,7 +49,6 @@ One way to facilitate the coexistence of legacy code and the adoption of the new
 Supporting the ".hy" file extension provides a clear distinction between the renamed language and the traditional JavaScript files, easing the identification of code written in the new language. This approach allows for a smooth transition, enabling developers to update and refactor their projects incrementally, while still being able to leverage existing JavaScript libraries and tools.
 By ensuring full retrocompatibility and introducing the ".hy" file extension support, the proposed renaming to "Hyper" can coexist harmoniously with the existing JavaScript ecosystem. Developers can gradually adopt the new name and language features without causing disruptions, providing a stable and reliable environment for both existing and new projects.
 
--- 
+----
 
 Renaming JavaScript to "Hyper" is a strategic step that recognizes its evolution.
-
